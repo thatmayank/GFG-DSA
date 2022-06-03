@@ -7,3 +7,26 @@ Big O = exact or upper bound
 Theta = exact bound
 Omega = lower bound
 
+--> Analysis of Algorithm 
+
+1. for(int i = n; i > 0; i = i / c) {
+    constant work;
+}
+T.C. = O(log n)
+2. for(int i = 2; i < n; i = i * c) {
+    constant work;
+}
+T.C. = O(log n)
+3. for(int i = 2; i < n; i = pow(i,c)) {
+    constant work;
+}
+T.C. = O(log log n)
+
+Topics left in GFG - Analysis of Algorithm
+  More Example Recurrences 
+  Recursion Tree Method for Solving Recurrences 
+  Upper Bounds Using Recursion Tree Method 
+  Space Complexity 
+
+--> ARRAYS 
+
