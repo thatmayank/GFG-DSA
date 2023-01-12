@@ -21,8 +21,8 @@ using namespace std;
 // Approach 2
 int repeatingChar(string &str)
 {
-    bool visited[256];
-    fill(visited, visited + 256, false);
+    bool visited[256]{false};
+    // fill(visited, visited + 256, false);
     int res = -1;
 
     for (int i = str.length() - 1; i >= 0; i--)
